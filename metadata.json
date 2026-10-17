@@ -1,0 +1,8 @@
+{
+  "name": "PINDARA - Mi Instan Pindang Serani Jepara",
+  "description": "Digital hub mi instan PINDARA rasa Pindang Serani khas Jepara: keterlacakan produk berbasis QR Code & blockchain, edukasi kuliner pesisir, dan loyalitas konsumen sistem streak harian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

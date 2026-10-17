@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-deep-teal: #123e46;
+  --color-brand-turquoise: #55c6c0;
+  --color-brand-cream: #fff5e5;
+  --color-brand-cream-bg: #fff8f1;
+  --color-brand-warm-orange: #f4a261;
+  --color-brand-batik-brown: #79513a;
+
+  --color-primary: #123e46;
+  --color-primary-container: #1b535d;
+  --color-secondary: #006a66;
+  --color-secondary-container: #86f5ee;
+  --color-tertiary: #f4a261;
+  --color-surface: #fff8f1;
+
+  --font-display: 'Chewy', 'Plus Jakarta Sans', sans-serif;
+  --font-fun: 'Luckiest Guy', cursive;
+  --font-sans: 'Plus Jakarta Sans', 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f1;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1f1b12;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1e7d7;
+}
+::-webkit-scrollbar-thumb {
+  background: #55c6c0;
+  border-radius: 9999px;
+}
